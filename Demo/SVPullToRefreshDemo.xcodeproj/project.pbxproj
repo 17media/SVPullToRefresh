@@ -21,7 +21,54 @@
 		22E0D94B1545F63300BB6BB5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 22E0D94A1545F63300BB6BB5 /* README.md */; };
 		22FDEC971639082E00DB53A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FDEC961639082E00DB53A8 /* Default-568h@2x.png */; };
 		22FDEC9D16390CC800DB53A8 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288146016047C06005C6461 /* UIScrollView+SVInfiniteScrolling.m */; };
+		2B8C92291D7541EF00E8395C /* SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8C92281D7541EF00E8395C /* SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C92301D7541EF00E8395C /* SVPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */; };
+		2B8C92371D7541EF00E8395C /* SVPullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C92361D7541EF00E8395C /* SVPullToRefreshTests.m */; };
+		2B8C923B1D7541EF00E8395C /* SVPullToRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */; };
+		2B8C923C1D7541EF00E8395C /* SVPullToRefresh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2B8C92441D75424E00E8395C /* UIScrollView+SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E0D93A1545EE7600BB6BB5 /* UIScrollView+SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C92451D75424E00E8395C /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E0D93B1545EE7600BB6BB5 /* UIScrollView+SVPullToRefresh.m */; };
+		2B8C92461D75424E00E8395C /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2288145F16047C06005C6461 /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8C92471D75424E00E8395C /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2288146016047C06005C6461 /* UIScrollView+SVInfiniteScrolling.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8C92311D7541EF00E8395C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E0D90B1545EE5B00BB6BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8C92251D7541EE00E8395C;
+			remoteInfo = SVPullToRefresh;
+		};
+		2B8C92331D7541EF00E8395C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E0D90B1545EE5B00BB6BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E0D9131545EE5B00BB6BB5;
+			remoteInfo = SVPullToRefreshDemo;
+		};
+		2B8C92391D7541EF00E8395C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E0D90B1545EE5B00BB6BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8C92251D7541EE00E8395C;
+			remoteInfo = SVPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8C92421D7541EF00E8395C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B8C923C1D7541EF00E8395C /* SVPullToRefresh.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2214365516B48FD70057C96E /* SVPullToRefresh.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SVPullToRefresh.podspec; path = ../SVPullToRefresh.podspec; sourceTree = "<group>"; };
@@ -46,6 +93,12 @@
 		22E0D9401545EE9000BB6BB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		22E0D94A1545F63300BB6BB5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22FDEC961639082E00DB53A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C92281D7541EF00E8395C /* SVPullToRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		2B8C922A1D7541EF00E8395C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8C922F1D7541EF00E8395C /* SVPullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVPullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C92361D7541EF00E8395C /* SVPullToRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefreshTests.m; sourceTree = "<group>"; };
+		2B8C92381D7541EF00E8395C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +110,22 @@
 				22E0D9191545EE5B00BB6BB5 /* UIKit.framework in Frameworks */,
 				22E0D91B1545EE5B00BB6BB5 /* Foundation.framework in Frameworks */,
 				22E0D91D1545EE5B00BB6BB5 /* CoreGraphics.framework in Frameworks */,
+				2B8C923B1D7541EF00E8395C /* SVPullToRefresh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C92221D7541EE00E8395C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C922C1D7541EF00E8395C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C92301D7541EF00E8395C /* SVPullToRefresh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +139,8 @@
 				2214365516B48FD70057C96E /* SVPullToRefresh.podspec */,
 				22E0D91E1545EE5B00BB6BB5 /* Demo */,
 				22E0D9391545EE7600BB6BB5 /* SVPullToRefresh */,
+				2B8C92271D7541EF00E8395C /* SVPullToRefresh */,
+				2B8C92351D7541EF00E8395C /* SVPullToRefreshTests */,
 				22E0D9171545EE5B00BB6BB5 /* Frameworks */,
 				22E0D9151545EE5B00BB6BB5 /* Products */,
 			);
@@ -79,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				22E0D9141545EE5B00BB6BB5 /* SVPullToRefreshDemo.app */,
+				2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */,
+				2B8C922F1D7541EF00E8395C /* SVPullToRefreshTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +206,38 @@
 			path = ../SVPullToRefresh;
 			sourceTree = "<group>";
 		};
+		2B8C92271D7541EF00E8395C /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C92281D7541EF00E8395C /* SVPullToRefresh.h */,
+				2B8C922A1D7541EF00E8395C /* Info.plist */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		2B8C92351D7541EF00E8395C /* SVPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C92361D7541EF00E8395C /* SVPullToRefreshTests.m */,
+				2B8C92381D7541EF00E8395C /* Info.plist */,
+			);
+			path = SVPullToRefreshTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B8C92231D7541EE00E8395C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C92291D7541EF00E8395C /* SVPullToRefresh.h in Headers */,
+				2B8C92461D75424E00E8395C /* UIScrollView+SVInfiniteScrolling.h in Headers */,
+				2B8C92441D75424E00E8395C /* UIScrollView+SVPullToRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		22E0D9131545EE5B00BB6BB5 /* SVPullToRefreshDemo */ = {
@@ -143,15 +247,54 @@
 				22E0D9101545EE5B00BB6BB5 /* Sources */,
 				22E0D9111545EE5B00BB6BB5 /* Frameworks */,
 				22E0D9121545EE5B00BB6BB5 /* Resources */,
+				2B8C92421D7541EF00E8395C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B8C923A1D7541EF00E8395C /* PBXTargetDependency */,
 			);
 			name = SVPullToRefreshDemo;
 			productName = SVPullToRefreshDemo;
 			productReference = 22E0D9141545EE5B00BB6BB5 /* SVPullToRefreshDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2B8C92251D7541EE00E8395C /* SVPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C92411D7541EF00E8395C /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */;
+			buildPhases = (
+				2B8C92211D7541EE00E8395C /* Sources */,
+				2B8C92221D7541EE00E8395C /* Frameworks */,
+				2B8C92231D7541EE00E8395C /* Headers */,
+				2B8C92241D7541EE00E8395C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVPullToRefresh;
+			productName = SVPullToRefresh;
+			productReference = 2B8C92261D7541EE00E8395C /* SVPullToRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B8C922E1D7541EF00E8395C /* SVPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C92431D7541EF00E8395C /* Build configuration list for PBXNativeTarget "SVPullToRefreshTests" */;
+			buildPhases = (
+				2B8C922B1D7541EF00E8395C /* Sources */,
+				2B8C922C1D7541EF00E8395C /* Frameworks */,
+				2B8C922D1D7541EF00E8395C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8C92321D7541EF00E8395C /* PBXTargetDependency */,
+				2B8C92341D7541EF00E8395C /* PBXTargetDependency */,
+			);
+			name = SVPullToRefreshTests;
+			productName = SVPullToRefreshTests;
+			productReference = 2B8C922F1D7541EF00E8395C /* SVPullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,6 +305,15 @@
 				CLASSPREFIX = SV;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					2B8C92251D7541EE00E8395C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2B8C922E1D7541EF00E8395C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22E0D9131545EE5B00BB6BB5;
+					};
+				};
 			};
 			buildConfigurationList = 22E0D90E1545EE5B00BB6BB5 /* Build configuration list for PBXProject "SVPullToRefreshDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -176,6 +328,8 @@
 			projectRoot = "";
 			targets = (
 				22E0D9131545EE5B00BB6BB5 /* SVPullToRefreshDemo */,
+				2B8C92251D7541EE00E8395C /* SVPullToRefresh */,
+				2B8C922E1D7541EF00E8395C /* SVPullToRefreshTests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +344,20 @@
 				22E0D94B1545F63300BB6BB5 /* README.md in Resources */,
 				22FDEC971639082E00DB53A8 /* Default-568h@2x.png in Resources */,
 				2214365616B48FD70057C96E /* SVPullToRefresh.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C92241D7541EE00E8395C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C922D1D7541EF00E8395C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +376,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B8C92211D7541EE00E8395C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C92471D75424E00E8395C /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				2B8C92451D75424E00E8395C /* UIScrollView+SVPullToRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C922B1D7541EF00E8395C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C92371D7541EF00E8395C /* SVPullToRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8C92321D7541EF00E8395C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8C92251D7541EE00E8395C /* SVPullToRefresh */;
+			targetProxy = 2B8C92311D7541EF00E8395C /* PBXContainerItemProxy */;
+		};
+		2B8C92341D7541EF00E8395C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E0D9131545EE5B00BB6BB5 /* SVPullToRefreshDemo */;
+			targetProxy = 2B8C92331D7541EF00E8395C /* PBXContainerItemProxy */;
+		};
+		2B8C923A1D7541EF00E8395C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8C92251D7541EE00E8395C /* SVPullToRefresh */;
+			targetProxy = 2B8C92391D7541EF00E8395C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		22E0D9211545EE5B00BB6BB5 /* InfoPlist.strings */ = {
@@ -301,6 +504,7 @@
 				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
 				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,8 +517,133 @@
 				GCC_PREFIX_HEADER = "SVPullToRefreshDemo/SVPullToRefreshDemo-Prefix.pch";
 				INFOPLIST_FILE = "SVPullToRefreshDemo/SVPullToRefreshDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2B8C923D1D7541EF00E8395C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVPullToRefresh/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17.media.SVPullToRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B8C923E1D7541EF00E8395C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVPullToRefresh/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17.media.SVPullToRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B8C923F1D7541EF00E8395C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVPullToRefreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17.media.SVPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVPullToRefreshDemo.app/SVPullToRefreshDemo";
+			};
+			name = Debug;
+		};
+		2B8C92401D7541EF00E8395C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = SVPullToRefreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17.media.SVPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVPullToRefreshDemo.app/SVPullToRefreshDemo";
 			};
 			name = Release;
 		};
@@ -338,6 +667,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		2B8C92411D7541EF00E8395C /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C923D1D7541EF00E8395C /* Debug */,
+				2B8C923E1D7541EF00E8395C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B8C92431D7541EF00E8395C /* Build configuration list for PBXNativeTarget "SVPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C923F1D7541EF00E8395C /* Debug */,
+				2B8C92401D7541EF00E8395C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
